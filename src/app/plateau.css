@@ -1,0 +1,107 @@
+
+body{
+    background-color: #1f5768;
+    color: #FFFFFF;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+form select {
+    border: 0 solid transparent;
+    background: rgba(0, 0, 0, .3);
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #fb788a;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.container section{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.plateau {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+section h3{
+    font-size: 1.5rem;
+}
+
+section button{
+    margin: 8px;
+    padding: 8px;
+    color: #FFFFFF;
+    background-color: rgba(68, 111, 94, 0.62);
+    border: 0;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+section button:not(:disabled):hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+section button:disabled{
+    background-color: #929292;
+}
+
+section p{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fb788a;
+    border-radius: 50%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+section .score{
+    margin: 30px auto;
+    width: 35%;
+    font-size: 1.5rem;
+}
+
+section .score th:first-of-type{
+    border-bottom: 1px solid #FFFFFF;
+    color: #67D455;
+}
+
+section .score th:last-of-type{
+    border-bottom: 1px solid #FFFFFF;
+    color: #d4a808;
+}
+
+section .score th:nth-last-of-type(1), section .score td:nth-last-of-type(1){
+    border-left: 1px solid #FFFFFF;
+}

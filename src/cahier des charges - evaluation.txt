@@ -1,0 +1,19 @@
+
+
+* Cahier des charges
+
+- Faire un morpion
+- Tout en REACT  (pas de jquery)
+- Utilisation de REDUX
+
+
+* Evaluation
+
+Notation sur 20
+
+- Fonctionnement des cases en react/redux   4pts
+- Fonctionnement du jeu  (démarrage / un joueur après l'autre /  détection gagnant)  8pts
+- Temps limite de jeu par tour  (affichage du temps restant / perdu si timeout)   2pts
+- Comptabilisation des parties gagnées par joueur  (+ bouton reset)  4pts
+- Amélioration de l'aspect graphique et finitions (ex: boutons disabled)   4pts
+- Parametrage du nombre de lignes/colonnes en début de partie  2pts
