@@ -1,15 +1,15 @@
 # tic-tac-toe-react-redux
 
-### Installation :
+### Installation:
 
 ```
 npm install
 ```
 
-### Lancement :
+### Start the server:
 
 ```
 npm start
 ```
 
-Accès : [localhost:3000](localhost:3000)
+Open: [localhost:3000](localhost:3000)
